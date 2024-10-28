@@ -1,0 +1,10 @@
+{
+  "name": "booking-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "pre-deploy": "docker compose pull",
+    "deploy": "docker compose up -d",
+    "down": "docker compose down"
+  }
+}
